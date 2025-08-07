@@ -2,7 +2,7 @@
 
 A customizable, responsive star diagram component for React to visualize multi-dimensional data. Perfect for displaying comparative metrics, survey results, or any data with multiple categories.
 
-![Star Diagram Example](/example/example.png)
+![Star Diagram Example](/example/public/example.png)
 
 ## Features
 
