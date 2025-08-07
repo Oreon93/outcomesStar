@@ -1,0 +1,64 @@
+{
+  "name": "react-star-diagram",
+  "version": "1.0.0",
+  "description": "A customizable star diagram component for React to visualize multi-dimensional data",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "example": "cd example && npm start",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src --ext .ts,.tsx",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/react-star-diagram.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "typescript",
+    "visualization",
+    "star",
+    "diagram",
+    "chart",
+    "data-visualization",
+    "multi-dimensional"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/react-star-diagram/issues"
+  },
+  "homepage": "https://github.com/yourusername/react-star-diagram#readme",
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "eslint-plugin-react": "^7.32.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "jest": "^29.0.0",
+    "rollup": "^4.0.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "@rollup/plugin-terser": "^0.4.4",
+    "typescript": "^5.0.0",
+    "tslib": "^2.6.0"
+  }
+}
