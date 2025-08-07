@@ -186,16 +186,8 @@ const CustomStarDiagram = () => {
 
 ## Data Requirements
 
-- **Exactly 10 categories**: The star diagram is designed for 10-point data
-- **Score range**: Scores should be between 1-10 (inclusive)
 - **Matching categories**: Both datasets should have the same categories in the same order
-
-## Browser Support
-
-- Chrome (latest)
-- Firefox (latest)  
-- Safari (latest)
-- Edge (latest)
+- **Consistent category length**: Both datasets should have the same number of categories.
 
 ## Contributing
 
