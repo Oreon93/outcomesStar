@@ -199,7 +199,7 @@ const CustomStarDiagram = () => {
 
 ## Contributing
 
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+We welcome contributions!
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
@@ -238,8 +238,4 @@ npm run lint
 
 ## License
 
-MIT © [Your Name](https://github.com/yourusername)
-
-## Changelog
-
-See [CHANGELOG.md](CHANGELOG.md) for details about changes in each version.
+MIT © Nicholas Howley (https://github.com/Oreon93)
